@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>SVG</title>
+</head>
+
+<body>
+  <svg>
+    <symbol id="close">
+      <rect x="0.554688" y="35.4099" width="50" height="5" transform="rotate(-45 0.554688 35.4099)" />
+      <rect x="35.9102" y="38.9454" width="50" height="5" transform="rotate(-135 35.9102 38.9454)" />
+    </symbol>
+    <symbol id="burger-menu">
+      <rect x="0.220703" width="47.561" height="4.7561" />
+      <rect x="0.220703" y="17.1219" width="47.561" height="4.7561" />
+      <rect x="0.220703" y="34.2439" width="47.561" height="4.7561" />
+    </symbol>
+    <symbol id="search">
+      <rect x="35.9531" y="39.4868" width="18.3158" height="5" transform="rotate(-135 35.9531 39.4868)" />
+      <path
+        d="M30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15ZM4.92252 15C4.92252 20.5656 9.43436 25.0775 15 25.0775C20.5656 25.0775 25.0775 20.5656 25.0775 15C25.0775 9.43436 20.5656 4.92252 15 4.92252C9.43436 4.92252 4.92252 9.43436 4.92252 15Z" />
+    </symbol>
+    <symbol id="home">
+      <rect x="0.964844" y="34.0015" width="36" height="5" />
+      <rect x="33.6289" y="21.3679" width="24.8629" height="4.7561" transform="rotate(-135 33.6289 21.3679)" />
+      <rect x="0.953125" y="18.0718" width="25.5574" height="4.7561" transform="rotate(-45 0.953125 18.0718)" />
+      <rect x="0.964844" y="39.0012" width="21" height="5" transform="rotate(-90 0.964844 39.0012)" />
+      <rect x="31.9648" y="39.0012" width="21" height="5" transform="rotate(-90 31.9648 39.0012)" />
+    </symbol>
+  </svg>
+  <svg viewBox="0 0 40 40" height="40px" width="40px" fill="blue" class="menu">
+    <use href="#close"></use>
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" height="40px" width="40px" class="menu">
+    <g class="nc-int-icon js-nc-int-icon nc-int-icon-scale">
+      <g class="nc-int-icon-a">
+        <use href="#burger-menu"></use>
+      </g>
+      <g class="nc-int-icon-b">
+        <use href="#close"></use>
+      </g>
+    </g>
+  </svg>
+  <svg viewBox="0 0 40 40" height="40px" width="40px" fill="green" class="menu">
+    <use href="#search"></use>
+  </svg>
+  <svg viewBox="0 0 40 40" height="40px" width="40px" fill="purple" class="menu">
+    <use href="#home"></use>
+  </svg>
+  <div class="map">
+    <svg id="map-layer" width="631" height="290" viewBox="0 0 631 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect name="park" x="178" y="84" width="47" height="20" fill="#85FF8A" />
+      <rect name="park" x="201" width="24" height="40" fill="#85FF8A" />
+      <rect name="house-60" x="246" y="122" width="112" height="17" fill="#FFD770" />
+      <rect name="house-60" x="292" y="234" width="66" height="17" fill="#FFD770" />
+      <rect name="house-60" x="341" y="251" width="129" height="17" transform="rotate(-90 341 251)" fill="#FFD770" />
+      <rect name="house-61" x="196" y="271" width="76" height="17" fill="#FFD770" />
+      <rect name="house-61" x="195" y="288" width="149" height="17" transform="rotate(-90 195 288)" fill="#FFD770" />
+      <rect name="house-62" x="158" y="199" width="15" height="10" transform="rotate(-90 158 199)" fill="#FFD770" />
+      <rect name="kindergarden" y="88" width="30" height="47" transform="rotate(-90 0 88)" fill="#FC73FF" />
+      <rect name="kindergarden" x="13" y="125" width="37" height="22" transform="rotate(-90 13 125)" fill="#FC73FF" />
+      <rect name="kindergarden" x="13" y="159" width="25" height="30" transform="rotate(-90 13 159)" fill="#FC73FF" />
+      <rect name="kindergarden" x="20" y="141" width="41" height="20" transform="rotate(-90 20 141)" fill="#FC73FF" />
+      <rect name="kindergarden" x="37" y="143" width="21" height="43" transform="rotate(-90 37 143)" fill="#FC73FF" />
+      <rect name="kindergarden" x="45" y="133" width="21" height="5" transform="rotate(-90 45 133)" fill="#FC73FF" />
+      <rect name="kindergarden" x="60" y="123" width="26" height="13" transform="rotate(-90 60 123)" fill="#FC73FF" />
+      <rect name="kindergarden" x="73" y="122" width="20" height="19" transform="rotate(-90 73 122)" fill="#FC73FF" />
+      <rect name="kindergarden" x="70" y="134" width="5" height="19" transform="rotate(-90 70 134)" fill="#FC73FF" />
+      <rect name="kindergarden" x="78" y="166" width="7" height="11" transform="rotate(-90 78 166)" fill="#FC73FF" />
+      <rect name="kindergarden" x="64" y="159" width="19" height="28" transform="rotate(-90 64 159)" fill="#FC73FF" />
+      <rect name="house-67" x="251" y="9" width="21" height="79" fill="#FFD770" />
+      <rect name="house-67" x="251" y="30" width="21" height="107" transform="rotate(-90 251 30)" fill="#FFD770" />
+      <rect name="house-67" x="337" y="9" width="21" height="49" fill="#FFD770" />
+      <rect name="house-68" x="428" y="9" width="21" height="66" fill="#FFD770" />
+      <rect name="garage" x="456" y="71" width="7" height="11" fill="#D9D9D9" />
+      <rect name="magnit" x="482" y="9" width="31" height="35" fill="#FF9898" />
+      <rect name="house-58" x="408" y="132" width="20" height="112" fill="#FFD770" />
+      <rect name="house-58" x="404" y="238" width="20" height="43" fill="#FFD770" />
+      <rect name="house-58" x="424" y="262" width="74" height="28" fill="#FFD770" />
+      <rect name="house-57" x="491" y="236" width="60" height="16" fill="#FFD770" />
+      <rect name="house-57" x="451" y="122" width="110" height="16" fill="#FFD770" />
+      <rect name="house-57" x="544" y="122" width="17" height="122" fill="#FFD770" />
+      <rect name="house-59" x="614" y="122" width="17" height="166" fill="#FFD770" />
+      <rect name="parking" x="564" y="6" width="62" height="77" fill="#9EADFF" />
+    </svg>
+    <span class="info"></span>
+  </div>
+
+
+
+  <div class="panorama">
+    <svg width="200" height="200" preserveAspectRatio="xMinYMid slice" viewBox="0 0 800 200">
+      <defs>
+        <filter id="blur-1">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+        </filter>
+        <filter id="blur-2">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" />
+        </filter>
+      </defs>
+
+      <g id="background" transform="translate(0, 0)" filter="url(#blur-1)">
+        <rect x="10" y="100" width="30" height="200" fill="#999" filter="url(#blur-1)" />
+        <rect x="50" y="120" width="30" height="50" fill="#777" filter="url(#blur-1)" />
+        <rect x="50" y="170" width="60" height="30" fill="#777" filter="url(#blur-1)" />
+        <rect x="50" y="220" width="60" height="30" fill="#777" filter="url(#blur-1)" />
+        <rect x="120" y="120" width="30" height="130" fill="#777" filter="url(#blur-1)" />
+        <rect x="150" y="150" width="20" height="70" fill="#777" filter="url(#blur-1)" />
+      </g>
+      <g id="street" transform="translate(0, 0)" filter="url(#blur-2)">
+        <rect x="0" y="100" width="30" height="200" fill="yellow" filter="url(#blur-2)" />
+        <rect x="20" y="150" width="30" height="50" fill="yellow" filter="url(#blur-2)" />
+        <rect x="60" y="170" width="60" height="30" fill="yellow" filter="url(#blur-2)" />
+        <rect x="100" y="90" width="30" height="200" fill="orange" filter="url(#blur-2)" />
+        <rect x="150" y="150" width="20" height="70" fill="yellow" filter="url(#blur-2)" />
+        <rect x="160" y="90" width="30" height="200" fill="orange" filter="url(#blur-2)" />
+      </g>
+      <g id="houses" transform="translate(0, 0)">
+        <rect x="10" y="150" width="30" height="50" fill="purple" />
+        <rect x="50" y="170" width="30" height="50" fill="pink" />
+        <rect x="70" y="180" width="60" height="30" fill="indigo" />
+        <rect x="150" y="130" width="30" height="70" fill="pink" />
+        <rect x="170" y="150" width="20" height="70" fill="indigo" />
+      </g>
+    </svg>
+  </div>
+  <div class="panorama-animation">
+    <div class="panorama-animation__part">
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#background" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-200 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#background" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-200 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#background" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-200 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#background" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-200 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#background" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-200 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+    </div>
+    <div class="panorama-animation__part">
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#street" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-400 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#street" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-400 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#street" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-400 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#street" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-400 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#street" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-400 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+    </div>
+    <div class="panorama-animation__part">
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#houses" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-600 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#houses" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-600 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#houses" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-600 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#houses" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-600 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+      <svg viewBox="0 0 200 200">
+        <use xlink:href="#houses" x="0" />
+        <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="3s"
+          repeatCount="indefinite" to="-600 0" begin="0s; end" keyTimes="0;0.5;1" />
+      </svg>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
